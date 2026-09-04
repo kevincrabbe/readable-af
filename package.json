@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-readable-af",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Opinionated ESLint rules and presets for boolean expressions that are easy to read and reason about.",
   "type": "module",
   "main": "./dist/index.js",

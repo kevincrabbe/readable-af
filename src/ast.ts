@@ -10,7 +10,7 @@ export interface RuleDocs {
 
 export const createRule = ESLintUtils.RuleCreator<RuleDocs>(
   (name) =>
-    `https://github.com/kevincrabbe/readable-af/blob/main/docs/rules/index.md#${name}`,
+    `https://github.com/kevincrabbe/readable-af/blob/main/docs/rules/${name}.md`,
 );
 
 const NEGATIVE_BOOLEAN_NAME = /^(?:(?:is|are|was|were|has|have|had|should|would|could|will|can|did|does|do)(?:Not|No|Never)|(?:cannot|cant|isnt|arent|wasnt|werent|hasnt|havent|hadnt|shouldnt|wouldnt|couldnt|wont|didnt|doesnt|dont))(?:[A-Z0-9_]|$)/u;
